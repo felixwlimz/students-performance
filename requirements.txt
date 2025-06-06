@@ -6,3 +6,4 @@ seaborn==0.12.2
 tensorflow 
 sklearn
 joblib
+streamlit

@@ -99,7 +99,8 @@ Dari hasil analisis tersebut disajikan dalam bentuk dashboard yang memudahkan pe
 3. Distribusi umur, admisi dan kualifikasi mahasiswa
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+
+Untuk menjalankan sistem machine learning yang telah dibuat dapat dilakukan dengan langkah langkah sebagai berikut : 
 
 ```
 
