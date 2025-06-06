@@ -44,13 +44,18 @@ for feature in features :
     user_input[feature] = val
     
 user_input_df = pd.DataFrame([user_input])
-prediction = model.predict(user_input_df)
-predicted = label_encoder.inverse_transform(prediction)[0]
 
-st.subheader("Model Prediction Result")
-st.write(f"Predicted Status: {predicted}")
-st.write(f"Model Accuracy: {acc:.2f}")
+def make_prediction():
+    prediction = model.predict(user_input_df)
+    predicted_label = label_encoder.inverse_transform(prediction)[0]
+    st.session_state.result = predicted_label
 
+st.button("Predict", on_click=make_prediction)
+
+if 'result' in st.session_state:
+    st.success(f"Predicted Status: {st.session_state.result}")
+    st.success(f"Model Accuracy: {acc:.2f}")
+    del st.session_state['result']
 
 st.subheader("Classification Report")
 

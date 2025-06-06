@@ -90,7 +90,7 @@ pip install -r requirements.txt
   password : felix12345
 
 ## Business Dashboard
-
+z
 Hasil dari analisis data dan visualisasi yang telah dilakukan dapat dilihat pada dashboard Metabase yang telah dibuat.
 Dari hasil analisis tersebut disajikan dalam bentuk dashboard yang memudahkan perusahaan untuk melihat dashboard secara realtime : 
 
@@ -102,6 +102,7 @@ Dari hasil analisis tersebut disajikan dalam bentuk dashboard yang memudahkan pe
 
 Untuk menjalankan sistem machine learning yang telah dibuat dapat dilakukan dengan langkah langkah sebagai berikut : 
 
+https://jzzkkvybfehwpgq4beah4e.streamlit.app/
 ```
 
 ```
